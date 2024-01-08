@@ -19,7 +19,7 @@ function App() {
             </RequireAuth>
           }
         />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </AuthProvider>
   );
